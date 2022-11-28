@@ -17,8 +17,38 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <button
+      type="button"
+      class="btn btn-primary d-block d-sm-block d-md-none"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvas"
+    >
+      Menu
+    </button>
+    <div
+      class="offcanvas offcanvas-start "
+      tabindex="-1"
+      id="offcanvas"
+      aria-labelledby="offcanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Welcome to our menu</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">This is where we will put some tabs</div>
+    </div>
+    <div class="text-center ">
+      <h1>Greece</h1>
+    </div>
+    <div class="text-center">
+      <img class="rounded"src="images/greece.jpg" alt="picture of greece">
+    </div>
+  </body>
+</html>
